@@ -47,5 +47,5 @@ pip install -r requirements.txt
 
 ### 5️⃣ Jalankan Aplikasi
 ```bash
-streamlit run app.py
+streamlit run dashboard.py
 ```
