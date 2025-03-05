@@ -1,4 +1,5 @@
 # Advanced Air Quality Dashboard
+## Exploring Air Quality and Weather Data 2013-2017 in Beijing, China
 
 Dashboard ini dibuat menggunakan **Streamlit** untuk menampilkan analisis kualitas udara berdasarkan berbagai parameter seperti PM2.5, PM10, CO, AQI, dan faktor cuaca. Dashboard ini mendukung visualisasi interaktif dengan **Plotly** serta peta geografis berbasis **Map**.
 
