@@ -25,12 +25,20 @@ atau dapat melakukan fork/download terhadap dataset, lalu membukanya di code edi
 
 ### 3️⃣ Buat Virtual ENvirontment (Opsional, tetapi Direkomendasikan)
 #### Untuk macOS/Linux
+```bash
 python -m venv venv
+```
+```bash
 source venv/bin/activate
+```
 
 #### Untuk Windows
+```bash
 python -m venv venv
-venv\Scripts\activate
+```
+```bash
+venv/bin/activate
+```
 
 ### 4️⃣ Install Dependencies
 ```bash
