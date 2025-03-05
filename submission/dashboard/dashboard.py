@@ -20,7 +20,7 @@ def load_data(file_path):
     return df
 
 # file_path = r"E:\All About Programs\Laskar AI\Data Analyst with Python\submission\dashboard\data_cleaned.csv"
-file_path = "dashboard/data_cleaned.csv"
+file_path = "submission/dashboard/data_cleaned.csv"
 df = load_data(file_path)
 
 # Koordinat manual untuk tiap stasiun
