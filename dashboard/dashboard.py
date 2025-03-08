@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
+import os
 
 # ======================================================
 # 1. CONFIG & DATA LOADING
@@ -19,7 +20,12 @@ def load_data(file_path):
     df['hour'] = df['datetime'].dt.hour
     return df
 
-file_path = "data_cleaned.csv"
+# Path relatif ke file dalam folder "dashboard"
+file_path = os.path.join(os.path.dirname(__file__), "data_cleaned.csv")
+
+if not os.path.exists(file_path):
+    st.error(f"File {file_path} tidak ditemukan di Streamlit Cloud. Pastikan file ada di GitHub.")
+
 df = load_data(file_path)
 
 # Koordinat manual untuk tiap stasiun
